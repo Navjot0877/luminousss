@@ -1,0 +1,12 @@
+.noproducts
+{
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    text-align: center;
+    
+}
+.noproducts h2
+{
+    color: grey;
+}

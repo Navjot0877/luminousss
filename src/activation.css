@@ -1,0 +1,57 @@
+.container-sm{
+    background-color: rgb(231, 231, 231);
+    height: 30%;
+    width: 30%;
+    margin: auto;
+    justify-content: center;
+    padding: auto;
+    margin-top: 15%;
+    border-radius: 20px
+}
+
+.container-sm p{
+  
+    padding:10%;
+
+}
+
+
+
+.container-sm input[type="button"]{
+    width: 30%;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .container-sm p{
+  
+       font-size: 12px;
+    
+    }
+    
+    .container-sm{
+        background-color: rgb(219, 219, 219);
+        height: 30%;
+        width: 60%;
+        margin: auto;
+        justify-content: center;
+        padding: auto;
+        margin-top: 45%;
+        border-radius: 20px
+    }
+
+    .container-sm input[type="button"]{
+        width: 80%;
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    
+
+
+}

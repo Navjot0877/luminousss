@@ -1,0 +1,30 @@
+.transition-3{
+    cursor: pointer;
+    box-Shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.33);
+    border-Radius: 50%;
+    width: 74px;
+    height: 74px;
+    background-image: url("../../components/images/customer-service.png");
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+    background-color: white;
+    
+    z-index: 10000;
+}
+
+@media screen and (max-width: 650px) {
+
+    .transition-3{
+     
+        width: 70px;
+        height: 70px;
+     
+     
+        background-size: 54px;
+     
+        background-color: rgba(255, 255, 255, 0.39);
+        
+        z-index: 10000;
+    }
+}
